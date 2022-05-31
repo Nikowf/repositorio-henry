@@ -1,22 +1,22 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = null;
+const nuevaString = hola;
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 11;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -25,56 +25,64 @@ const nuevoModulo = 21 % 5 === null;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString(str) {
-  // "Return" la string provista: str
-  // Tu código:
-  
+function devolverString(pepino) {
+  // "Return" la string provista: pepino
+  // Tu código: pepino
+  return pepino;
 }
 
-function suma(x, y) {
+function suma(1, 2) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código:
-  
+  // Tu código: 1 + 2;
+  return 1 + 2;
 }
 
-function resta(x, y) {
+function resta(1, 2) {
   // Resta "y" de "x" y devuelve el valor
-  // Tu código:
-  
+  // Tu código: 1 - 2;
+  return 1 - 2;
 }
 
-function multiplica(x, y) {
+function multiplica(1, 2) {
   // Multiplica "x" por "y" y devuelve el valor
-  // Tu código:
-  
+  // Tu código: 1 * 2;
+  return 1 * 2;
 }
 
-function divide(x, y) {
+function divide(1, 2) {
   // Divide "x" entre "y" y devuelve el valor
-  // Tu código:
-  
+  // Tu código: 1 / 2;
+  return 1 / 2;
 }
 
-function sonIguales(x, y) {
+function sonIguales(1, 1) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
-  // Tu código:
-  
+  // Tu código: 
+  if (1 === 1) {
+    return true;
+  } else { 
+    return false; 
+  } 
 }
 
-function tienenMismaLongitud(str1, str2) {
+function tienenMismaLongitud(aldo, pablo) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (aldo.length === pablo.length) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
-function menosQueNoventa(num) {
+function menosQueNoventa(80) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
-  // Tu código:
-  
+  // Tu código: 80 < 90
+  if ()
 }
 
 function mayorQueCincuenta(num) {
